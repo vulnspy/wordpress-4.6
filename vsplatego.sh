@@ -1,7 +1,7 @@
 #!/bin/bash
 
 service mysqld start || service mysql start && mysql -u root -ptoor -e 'create database wordpress;';
-wget -O /var/www/html/wordpress-4.6.tar.gz http://test-1251457471.cosgz.myqcloud.com/WordPress-4.6.tar.gz && tar -zxf /var/www/html/wordpress-4.6.tar.gz -C /var/www/html && mv /var/www/html/wordpress/* /var/www/html/ && rm -rf /var/www/html/wordpress;
+wget -O /var/www/html/wordpress-4.6.tar.gz http://test-1251457471.cosgz.myqcloud.com/WordPress-4.6.tar.gz && tar -zxf /var/www/html/wordpress-4.6.tar.gz -C /var/www/html && mv /var/www/html/WordPress-4.6/* /var/www/html/ && rm -rf /var/www/html/WordPress-4.6;
 rm -rf /var/www/html/wordpress-4.6.tar.gz;
 chmod -R 777 /var/www/html;
 sed -i "s/dc_eximconfig_configtype='local'/dc_eximconfig_configtype='internet'/" /etc/exim4/update-exim4.conf.conf;
