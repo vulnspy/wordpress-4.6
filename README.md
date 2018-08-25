@@ -1,3 +1,3 @@
-# Wordpress 4.9
+# Wordpress 4.6
 
 <a href="https://www.vsplate.com/?github=vulnspy/wordpress-4.6"><img alt="VSPLATE GO" src="https://raw.githubusercontent.com/vsplate/images/master/vsgo_btn.png" width="200px"></a>
