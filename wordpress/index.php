@@ -1,13 +1,4 @@
 <?php
-$con = mysqli_connect("localhost","root","toor");
-if (!$con)
-  {
-  die('Could not connect: ' . mysqli_error($con));
-  }
-
-$sql = "CREATE DATABASE IF NOT EXISTS wordpress";
-mysqli_query($con, $sql);
-mysqli_close($con);
 header("location: /wp");
 ?>
 
